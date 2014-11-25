@@ -8,6 +8,6 @@ public class HelloWorldImpl implements HelloWorld {
     @Override
     public String sayHi(String text) {
         System.out.println("hello");
-        return "Hi";
+        return "Hi " + text;
     }
 }
